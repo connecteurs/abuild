@@ -1,4 +1,6 @@
-# `abuild`
+# `abuild` (minimal version)
+
+From: https://gitlab.alpinelinux.org/alpine/docker-abuild
 
 ## License
 
