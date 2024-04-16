@@ -1,11 +1,10 @@
-FROM ghcr.io/connecteurs/alpine
+FROM ghcr.io/connecteurs/alpine:v3.19.1
 
-RUN apk add --update-cache \
+RUN apk add \
   alpine-conf \
   alpine-sdk \
   sudo \
   ccache \
-  && apk upgrade -a \
   && setup-apkcache /var/cache/apk
 
 RUN adduser -D builder \
